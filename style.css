@@ -116,3 +116,28 @@ p {
   margin: 10px 0px;
   padding: 10px 0px;
 }
+
+.tengah {
+  text-align: center;
+  width: 100%;
+}
+
+.about-list {
+  display: flex;
+  width: 100%;
+  position: relative;
+  flex-wrap: wrap;
+}
+.kartu-about {
+  width: 20px;
+  margin: 0 auto;
+}
+
+.kartu-about img {
+  border-radius: 50%;
+}
+.kartu-about p {
+  font-family: "comic sans ms";
+  font-weight: 800;
+  font-size: 20px;
+}
