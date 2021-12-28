@@ -51,8 +51,7 @@ section {
   margin-top: 50px;
   margin-bottom: 50px;
 }
-
-.kolom .deskripsi {
+.col .deskripsi {
   font-size: 20px;
   font-family: "comic sans ms";
   font-weight: bold;
@@ -76,10 +75,12 @@ a.tbl-biru {
   color: #ffffff;
   cursor: pointer;
   font-weight: bold;
+  box-shadow: 2px 2px rgba(2, 2, 2, 0.114), 2px 4px rgba(2, 2, 2, 0.03), 3px 6px rgba(2, 2, 2, 0.004);
 }
 a.tbl-biru:hover {
   color: #ff5677;
   text-decoration: none;
+  box-shadow: 2px 2px rgba(2, 2, 2, 0.114), 2px 4px rgba(2, 2, 2, 0.03), 3px 6px rgba(2, 2, 2, 0.004);
 }
 
 a.tbl-pink {
@@ -90,9 +91,12 @@ a.tbl-pink {
   color: #ffffff;
   cursor: pointer;
   font-weight: bold;
+  text-decoration: none;
+  box-shadow: 2px 2px rgba(2, 2, 2, 0.114), 2px 4px rgba(2, 2, 2, 0.03), 3px 6px rgba(2, 2, 2, 0.004);
 }
 a.tbl-pink:hover {
   background: #0cd1a7;
+  color: #22577e;
 }
 p {
   margin: 10px 0px;
@@ -118,7 +122,8 @@ p {
 .kartu-about img {
   border-radius: 50%;
 }
-.kartu-about p {
+.col-md-3 p {
+  text-shadow: 2px 2px rgba(2, 2, 2, 0.114), 2px 4px rgba(2, 2, 2, 0.03), 3px 6px rgba(2, 2, 2, 0.004);
   font-family: "comic sans ms";
   font-weight: 800;
   font-size: 20px;
