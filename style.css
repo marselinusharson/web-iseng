@@ -99,7 +99,7 @@ nav a {
     top: var(--nav);
     transition: var(--transition);
     color: var(--primary);
-    background: rgba(0, 0, 0, 0.19);
+    background: rgba(1, 49, 39, 0.19);
     transform: translateX(100%);
   }
   .barisan_menu.active {
